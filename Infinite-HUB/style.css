@@ -1,6 +1,6 @@
 /* General Reset */
 body, html {
-    display: flex;
+ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -66,20 +66,25 @@ h2{
 
 /* Logo */
 .logo h1 {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     margin: 0;
     color: cornflowerblue;
 }
 .infinity-logo{
+    width: 40px auto;
+    height: 70px ;
+    margin: 0;
+
+    border: transparent;
     
 }
 
 /* Sidebar Toggle Button */
 .sidebar-toggle {
-    font-size: 35px;
+    font-size: 30px;
     background: none;
-    color: #fff;
+    color: #aaa;
     border: none;
     cursor: pointer;
 }
