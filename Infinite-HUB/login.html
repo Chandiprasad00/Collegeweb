@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Infinite Hub</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Welcome!<br>Infinite-Hub</h1>
+           
+
+            <form id="login-form" action='index.html'>
+                <!-- Username Field -->
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter email or mobile number" required>
+                </div>
+                
+                <!-- Password Field -->
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                
+                <div class="form-options">
+                    <a href="#" id="forgot-password">Forgot Password?</a>
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="hi">Hindi</option>
+                        <option value="es">Spanish</option>
+                        <option value="fr">French</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+            
+            <p class="create-account">
+                Don't have an account? <a href="#">Create one</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
