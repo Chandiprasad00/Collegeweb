@@ -1,8 +1,8 @@
 document.getElementById('login-Form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the form from submitting
 
-    var username = document.getElementById('username').value;
-    var password = document.getElementById('password').value;
+    var username = document.getElementById('username').value.trim();
+    var password = document.getElementById('password').value.trim();
 
     // Define correct credentials
     var validUsername = 'admin';
