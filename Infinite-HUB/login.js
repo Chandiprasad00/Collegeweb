@@ -7,7 +7,7 @@ const users = [
 
 ];
 
-document.getElementById('loginForm').addEventListener('submit', function (e) {
+document.getElementById('login').addEventListener('submit', function (e) {
     e.preventDefault();
 
     const username = document.getElementById('username').value.trim(); 
@@ -24,7 +24,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
         console.log('User found:', user); 
         localStorage.setItem('isLoggedIn', 'true');
         localStorage.setItem('username', username); 
-        window.location.href = 'h.html'; 
+        window.location.href = 'index.html'; 
     } else {
         console.log('Invalid login attempt'); 
         errorMessage.textContent = 'Invalid username or password.';
